@@ -48,7 +48,7 @@ parser.add_argument('--allow_partial_weight', action='store_true', default=False
 parser.add_argument('--lr_scheduler', type=str, default='multisteplr')
 parser.add_argument('--step_size', type=list, default=[120, 180])
 parser.add_argument('--gamma', type=float, default=0.1)
-parser.add_argument('--num_epochs', type=int, default=5)
+parser.add_argument('--num_epochs', type=int, default=200)
 parser.add_argument('--img_size', type=int, default=128)
 parser.add_argument('--batch_size', type=int, default=12)
 parser.add_argument('--accumulation_steps', type=int, default=20)
